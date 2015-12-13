@@ -1,0 +1,24 @@
+#!/bin/sh
+
+echo "Downloading..."
+
+#OFFICIAL
+wget -O slsk.tgz http://www.soulseekqt.net/SoulseekQT/Linux/SoulseekQt-2015-6-25-32bit.tgz
+
+#Icon hosted on my Dropbox
+wget -O slsk.png https://www.dropbox.com/s/3qdatnoi10e3c17/slsk.png
+
+tar xvzf ./slsk.tgz
+
+su -c "install ./SoulseekQt-2015-6-25-32bit /usr/local/bin/slsk
+install ./slsk.png /usr/share/pixmaps/slsk.png
+install ./SoulseekQt.desktop /usr/share/applications/SoulseekQt.desktop
+chmod 750 /usr/local/bin/slsk
+chmod 750 /usr/share/pixmaps/slsk.png
+chmod 750 /usr/share/applications/SoulseekQt.desktop"
+
+
+echo "SoulseekQt 32bit is now installed"
+echo "it can be found in the app menu or terminal slsk"
+echo
+echo "XVLVX - hails music lovers"
