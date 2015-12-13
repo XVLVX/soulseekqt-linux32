@@ -9,4 +9,4 @@ Icon=/usr/share/pixmaps/slsk.png
 Path=/usr/local/bin
 Terminal=false
 StartupNotify=false
-Name[en_US]=SoulseekQt
+Name[en_US]=SoulseekQt.desktop
