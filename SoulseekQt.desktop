@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Categories=Internet
-Name=SoulseekQt
+Name=SoulseekQt.desktop
 Comment=P2P File Sharing
 Exec=/usr/local/bin/slsk
 Icon=/usr/share/pixmaps/slsk.png
