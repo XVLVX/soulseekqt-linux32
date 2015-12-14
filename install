@@ -19,6 +19,6 @@ chmod +x /usr/share/pixmaps/slsk.png
 chmod +x /usr/share/applications/SoulseekQt.desktop"
 
 echo "SoulseekQt 32bit is now installed"
-echo "it can be launched in the app menu, desktop or terminal: slsk"
+echo "it can be launched in the app menu, or via terminal: slsk"
 echo
 echo "XVLVX - hails music lovers"
